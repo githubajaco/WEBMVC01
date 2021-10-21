@@ -1,0 +1,10 @@
+<div th:fragment="tagmenu">
+	<h1 th:text="${presentation}">Message</h1>
+    <br/>
+    <hr/>
+	<a id="lien-lc" th:href="@{clients/listeClients}">Gestion des clients</a>
+	<a id="lien-ll"th:href="@{livres/listeLivres}">Gestion des livres</a>
+	<style>
+    a { color: #FF0000; } /* CSS link color */
+ 	</style>
+</div>
